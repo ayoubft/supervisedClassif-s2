@@ -1,5 +1,7 @@
-# Classification supervisée basée `pixels`
+# Supervised classification based on pixels
 
-Pour ce travail on a utilisé une image satellitaire Sentinel-2 de la région Nador au nord du Maroc, issue du site de l’USGS, les bandes spectrales des channels R, G, B et NIR sont utilisées.
+For this work we used a Sentinel-2 satellite image from the USGS site, of the Nador region in the north of Morocco, the spectral bands of the R, G, B and NIR channels are used.
 
-L'idée de base est de prendre les valeurs radiométriques des differentes bandes de l'image satellitaire, les aplatir puis entrainer le fameux `KNN` de [sklearn](https://scikit-learn.org/).
+The basic idea is to take the radiometric values of the different bands of the satellite image, flatten them and then train the famous `KNN` algorithm of [sklearn](https://scikit-learn.org/).
+
+Jump to: [the jupyther notebook](https://github.com/ayoubft/supervisedClassif-s2/blob/main/landUseClassif-en.ipynb)
